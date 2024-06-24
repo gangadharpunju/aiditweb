@@ -38,36 +38,46 @@ const Main: NextPage<MainType> = ({ className = "" }) => {
               </div>
               <a className={styles.taglineChange}>TAGLINE CHANGE</a>
             </div>
-            <div className={styles.heroNavigation}>
-              <Link href="/" className={pathname === '/' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
-                <div className={styles.navigationMenu}>
-                  <div className={styles.navigationProducts}>
-                    <a className={styles.itemButton}>Home</a>
-                  </div>
-                  <div className={styles.solutionsLink} />
-                </div>
-              </Link>
-            </div>
             <nav className={styles.developerResources}>
               <nav className={styles.solutionDevelopers}>
-                <Link href="/" className={pathname === '/' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
-                  <div className={styles.solutionDeveloperLabels}>
-                    <a className={styles.itemButton1}>About</a>
+                <Link href="/home" className={pathname === '/home' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
+                  <div className={styles.navigationMenu}>
+                    <div className={styles.navigationProducts}>
+                      <a className={styles.itemButton}>Home</a>
+                    </div>
+                    <div className={pathname === '/home' ? `${styles.solutionsLink}` : ""} />
                   </div>
                 </Link>
-                <Link href="/" className={pathname === '/' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
-                  <div className={styles.solutionDeveloperLabels1}>
-                    <a className={styles.itemButton2}>Services</a>
+                <Link href="/about" className={pathname === '/about' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
+                  <div className={styles.navigationMenu}>
+                    <div className={styles.navigationProducts}>
+                      <a className={styles.itemButton}>About</a>
+                    </div>
+                    <div className={pathname === '/about' ? `${styles.solutionsLink}` : ""} />
                   </div>
                 </Link>
-                <Link href="/" className={pathname === '/' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
-                  <div className={styles.solutionDeveloperLabels1}>
-                    <a className={styles.itemButton3}>Resources</a>
+                <Link href="/services" className={pathname === '/services' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
+                  <div className={styles.navigationMenu}>
+                    <div className={styles.navigationProducts}>
+                      <a className={styles.itemButton}>Services</a>
+                    </div>
+                    <div className={pathname === '/services' ? `${styles.solutionsLink}` : ""} />
                   </div>
                 </Link>
-                <Link href="/" className={pathname === '/' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
-                  <div className={styles.solutionDeveloperLabels1}>
-                    <a className={styles.itemButton3}>Learn</a>
+                <Link href="/resources" className={pathname === '/resources' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
+                  <div className={styles.navigationMenu}>
+                    <div className={styles.navigationProducts}>
+                      <a className={styles.itemButton}>Resources</a>
+                    </div>
+                    <div className={pathname === '/resources' ? `${styles.solutionsLink}` : ""} />
+                  </div>
+                </Link>
+                <Link href="/learn" className={pathname === '/learn' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
+                  <div className={styles.navigationMenu}>
+                    <div className={styles.navigationProducts}>
+                      <a className={styles.itemButton}>Learn</a>
+                    </div>
+                    <div className={pathname === '/learn' ? `${styles.solutionsLink}` : ""} />
                   </div>
                 </Link>
               </nav>
@@ -107,18 +117,18 @@ const Main: NextPage<MainType> = ({ className = "" }) => {
                 <div className={menuOpen ? `${styles.navpostion}` : 'bgnav'}>
                   <div className={styles.rectangle_parent10}>
                     <div className={styles.link_about_us_parent}>
-                      <Link href="/" className={pathname === '/' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
+                      <Link href="/home" className={pathname === '/home' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
                         <div className={styles.heroNavigation}>
                           <div className={styles.navigationMenu}>
                             <div className={styles.navigationProducts}>
                               <a className={styles.itemButton}>Home</a>
                             </div>
-                            <div className={pathname === '/' ? `${styles.solutionsLink}` : `${styles.solutionsLinkactive}`} />
+                            <div className={pathname === '/home' ? `${styles.solutionsLink}` : `${styles.solutionsLinkactive}`} />
                           </div>
                         </div>
                       </Link>
                       <div className="link-about">
-                        <Link href="/" className={pathname === '/about' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
+                        <Link href="/about" className={pathname === '/about' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
                           <div className={styles.heroNavigation}>
                             <div className={styles.navigationMenu}>
                               <div className={styles.navigationProducts}>
@@ -130,7 +140,7 @@ const Main: NextPage<MainType> = ({ className = "" }) => {
                         </Link>
                       </div>
                       <div className="link-about">
-                        <Link href="/" className={pathname === '/services' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
+                        <Link href="/services" className={pathname === '/services' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
                           <div className={styles.heroNavigation}>
                             <div className={styles.navigationMenu}>
                               <div className={styles.navigationProducts}>
@@ -143,7 +153,7 @@ const Main: NextPage<MainType> = ({ className = "" }) => {
                       </div>
                       <div className="about-us-link-two">
                         <div className="link-about">
-                          <Link href="/" className={pathname === '/resources' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
+                          <Link href="/resources" className={pathname === '/resources' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
                             <div className={styles.heroNavigation}>
                               <div className={styles.navigationMenu}>
                                 <div className={styles.navigationProducts}>
@@ -156,7 +166,7 @@ const Main: NextPage<MainType> = ({ className = "" }) => {
                         </div>
                       </div>
                       <div className="link-about">
-                        <Link href="/" className={pathname === '/learn' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
+                        <Link href="/learn" className={pathname === '/learn' ? `${styles.linkstyle}` : `${styles.linkstyleactive}`}>
                           <div className={styles.heroNavigation}>
                             <div className={styles.navigationMenu}>
                               <div className={styles.navigationProducts}>

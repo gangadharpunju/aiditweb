@@ -221,7 +221,7 @@
 }
 @media screen and (max-width: 1300px) {
   .divcCpvdp {
-    padding-left: var(--padding-9xl);
+    /* padding-left: var(--padding-9xl); */
     box-sizing: border-box;
   }
 }

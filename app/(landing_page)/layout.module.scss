@@ -1,11 +1,11 @@
 .footer {
-  margin-left: -0.313rem;
   align-self: stretch;
   background-color: #1f1f1f;
   padding: var(--padding-10xs-6) var(--padding-51xl) 0;
-  max-width: 101%;
+  max-width: 100%;
   flex-shrink: 0;
   z-index: 2;
+  width: 100%;
 }
 
 .footer {
@@ -21,8 +21,8 @@
 
 @media (max-width: 800px) {
   .footer {
-    padding-left: var(--padding-16xl);
-    padding-right: var(--padding-16xl);
+    padding-left: 1rem;
+    padding-right: 0.5rem;
     box-sizing: border-box;
   }
 }

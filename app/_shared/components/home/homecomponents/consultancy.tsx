@@ -2,7 +2,7 @@
 import type { NextPage } from "next";
 import Component from "./component";
 import styles from "./consultancy.module.css";
-
+import ScrollCarousel from "scroll-carousel-react";
 export type ConsultancyType = {
   className?: string;
 };
@@ -98,6 +98,7 @@ const Consultancy: NextPage<ConsultancyType> = ({ className = "" }) => {
               <h1 className={styles.whatValueHas}>What value has it added?</h1>
             </div>
           </div>
+          <ScrollCarousel autoplay autoplaySpeed={80} speed={5}>
           <div className={styles.valueBenefits}>
             <Component />
             <div className={styles.div}>
@@ -124,6 +125,7 @@ const Consultancy: NextPage<ConsultancyType> = ({ className = "" }) => {
               <img className={styles.vectorIcon3} alt="" src="/vector-6.svg" />
             </div>
           </div>
+          </ScrollCarousel>
         </div>
 
       </div>

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const sarvices = () => {
+const Sarvices = () => {
   return (
-    <div>sarvices</div>
+    <div>Sarvices</div>
   )
 }
 
-export default sarvices
+export default Sarvices

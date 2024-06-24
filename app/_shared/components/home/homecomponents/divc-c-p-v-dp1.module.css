@@ -172,16 +172,15 @@
   color: var(--color-gainsboro-100);
 }
 .linkServicesParent {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 19.544rem;
+  position: relative;
+  /* top: 0;
+  left: 0; */
   gap: var(--gap-26xl-5);
 }
 .footerLinksChild {
-  position: absolute;
-  top: 0.663rem;
-  left: 17.313rem;
+  position: relative;
+  /* top: 0.663rem;
+  left: 17.313rem; */
   border-radius: 180.17px;
   width: 0.063rem;
   height: 28rem;
@@ -201,6 +200,7 @@
 .itemLink10 {
   position: relative;
   line-height: 1.196rem;
+  text-align: start;
 }
 .itemLink11 {
   width: 11.681rem;
@@ -228,27 +228,32 @@
 .linksList1 {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  padding-left: 2%;
+  /* align-items: center;
+  justify-content: center; */
 }
 .linksList1 {
-  align-self: stretch;
+  /* align-self: stretch; */
   gap: var(--gap-4xl-5);
   font-size: var(--font-size-mid-2);
   color: var(--color-gainsboro-100);
 }
 .linkServicesGroup {
-  position: absolute;
+  position: relative;
   top: 0;
-  left: 18.913rem;
+  /* left: 18.913rem; */
   width: 14.244rem;
   gap: var(--gap-35xl-6);
 }
 .footerLinks {
-  height: 29rem;
-  width: 33.563rem;
+  /* height: 29rem; */
+  /* width: 33.563rem; */
   position: relative;
   max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 0em;
 }
 .logoContainerIcon {
   height: 28rem;
@@ -421,18 +426,27 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .footerLinks {
+    /* height: 29rem; */
+    /* width: 33.563rem; */
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
   .linkServicesGroup {
     position: relative;
-    top: 37px;
-    left: 8.913rem;
+    /* top: 37px; */
+    /* left: 8.913rem; */
     width: 14.244rem;;
     gap: var(--gap-35xl-6);
   }
   .linkServicesParent {
     position: relative;
-    top: 0;
-    left: 0;
-    width: 19.544rem;
+    /* top: 0;
+    left: 0; */
     gap: var(--gap-26xl-5);
   }
   .aidit {

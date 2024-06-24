@@ -962,13 +962,10 @@
   }
 
   .sectionLinkHealthInsura {
-    /* padding-top: var(--padding-14xl);
-    padding-bottom: var(--padding-234xl); */
     box-sizing: border-box;
   }
 
   .sectionLinkLifeInsuranc {
-    padding-bottom: var(--padding-218xl);
     box-sizing: border-box;
   }
 
@@ -1017,6 +1014,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  .growthBackgroundIcon{
+    height: 100%;
+  }
   .securedGrowth {
     display: none;
     align-items: flex-start;

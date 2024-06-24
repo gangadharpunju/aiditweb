@@ -52,18 +52,18 @@ const DivcCPVDp1: NextPage<DivcCPVDp1Type> = ({ className = "" }) => {
           </div>
         </div>
         <img
-          className={styles.footerLinksChild}
-          alt=""
-          src="/vector-7463.svg"
-        />
-        <div className={styles.linkServicesGroup}>
+            className={styles.footerLinksChild}
+            alt=""
+            src="/vector-7463.svg"
+          />
+        <div className={styles.linkServicesGroup}> 
           <h3 className={styles.linkServices1}>Industries</h3>
           <div className={styles.linksList1}>
             <div className={styles.itemLink10}>{`banking & Finance`}</div>
-            <div className={styles.itemLink11}>Engineering</div>
-            <div className={styles.itemLink12}>Healthcare</div>
-            <div className={styles.itemLink13}>Automotive</div>
-            <div className={styles.itemLink14}>{`Software development `}</div>
+            <div className={styles.itemLink10}>Engineering</div>
+            <div className={styles.itemLink10}>Healthcare</div>
+            <div className={styles.itemLink10}>Automotive</div>
+            <div className={styles.itemLink10}>{`Software development `}</div>
           </div>
         </div>
       </div>
