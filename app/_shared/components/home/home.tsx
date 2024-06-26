@@ -29,11 +29,6 @@ const Home: NextPage = () => {
       <div className={styles.homeInner} />
       <div className={styles.titleAndDescription} />
       <FrameComponent />
-      {/* <img
-        className={styles.representationUserExperienceIcon}
-        alt=""
-        src="/representationuserexperienceinterfacedesign-3-2@2x.png"
-      /> */}
       <section className={styles.newsContainerWrapper}>
         <div className={styles.newsContainer}>
           <NewsHeader />
