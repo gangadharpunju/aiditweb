@@ -13,24 +13,23 @@
 
 // next.config.js
 module.exports = {
-    // reactStrictMode: true,
-    // images: {
-    //   domains: ['example.com'],
-    // },
-    // async redirects() {
-    //   return [
-    //     {
-    //       source: '/old-path',
-    //       destination: '/new-path',
-    //       permanent: true,
-    //     },
-    //   ]
-    // },
-    // webpack(config, { isServer }) {
-    //   if (!isServer) {
-    //     config.resolve.fallback.fs = false;
-    //   }
-    //   return config;
-    // },
-  };
-  
+  webpack: (config, { isServer }) => {
+    // Example: Add a rule for CSS modules
+    config.module.rules.push({
+      test: /\.css$/,
+      use: [
+        {
+          loader: "style-loader",
+        },
+        {
+          loader: "css-loader",
+          options: {
+            modules: true, // Enable CSS modules
+          },
+        },
+      ],
+    });
+
+    return config;
+  },
+};
