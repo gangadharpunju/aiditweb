@@ -2,7 +2,7 @@
 import React from 'react';
 import Component from "./component";
 import styles from "./consultancy.module.css";
-import { ScrollCarousel } from "scroll-carousel-react";
+import ScrollCarousel from "scroll-carousel-react";
 export type ConsultancyType = {
   className?: string;
 };
@@ -99,32 +99,32 @@ const Consultancy: React.FC<ConsultancyType> = ({ className = "" }) => {
             </div>
           </div>
           <ScrollCarousel autoplay autoplaySpeed={80} speed={5}>
-            <div className={styles.valueBenefits}>
-              <Component />
-              <div className={styles.div}>
-                {/* <div className={styles.child} /> */}
-                <div className={styles.vectorContainer}>
-                  <img
-                    className={styles.vectorIcon2}
-                    alt=""
-                    src="/vector-6.svg"
-                  />
-                </div>
-                <div className={styles.intelligentDecisionMaking}>
-                  Intelligent decision-making
-                </div>
+          <div className={styles.valueBenefits}>
+            <Component />
+            <div className={styles.div}>
+              {/* <div className={styles.child} /> */}
+              <div className={styles.vectorContainer}>
+                <img
+                  className={styles.vectorIcon2}
+                  alt=""
+                  src="/vector-6.svg"
+                />
               </div>
-              <Component />
-            </div>
-            <div className={styles.decisionMaking}>
-              <div className={styles.intelligentDecisionMaking1}>
+              <div className={styles.intelligentDecisionMaking}>
                 Intelligent decision-making
               </div>
-              <div className={styles.decisionIcon}>
-                <div className={styles.iconBackgroundShape} />
-                <img className={styles.vectorIcon3} alt="" src="/vector-6.svg" />
-              </div>
             </div>
+            <Component />
+          </div>
+          <div className={styles.decisionMaking}>
+            <div className={styles.intelligentDecisionMaking1}>
+              Intelligent decision-making
+            </div>
+            <div className={styles.decisionIcon}>
+              <div className={styles.iconBackgroundShape} />
+              <img className={styles.vectorIcon3} alt="" src="/vector-6.svg" />
+            </div>
+          </div>
           </ScrollCarousel>
         </div>
 
