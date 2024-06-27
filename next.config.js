@@ -13,24 +13,24 @@
 
 // next.config.js
 module.exports = {
-    reactStrictMode: true,
-    images: {
-      domains: ['example.com'],
-    },
-    async redirects() {
-      return [
-        {
-          source: '/old-path',
-          destination: '/new-path',
-          permanent: true,
-        },
-      ]
-    },
-    webpack(config, { isServer }) {
-      if (!isServer) {
-        config.resolve.fallback.fs = false;
-      }
-      return config;
-    },
+    // reactStrictMode: true,
+    // images: {
+    //   domains: ['example.com'],
+    // },
+    // async redirects() {
+    //   return [
+    //     {
+    //       source: '/old-path',
+    //       destination: '/new-path',
+    //       permanent: true,
+    //     },
+    //   ]
+    // },
+    // webpack(config, { isServer }) {
+    //   if (!isServer) {
+    //     config.resolve.fallback.fs = false;
+    //   }
+    //   return config;
+    // },
   };
   
