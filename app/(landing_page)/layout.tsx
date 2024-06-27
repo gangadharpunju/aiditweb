@@ -5,14 +5,14 @@ import Main from '../_shared/components/home/homecomponents/main';
 import '../globals.css'
 import layoutStyles from "./layout.module.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import * as ScrollCarouselModule from 'scroll-carousel-react';
 export const metadata = {
   title: 'Aidit',
   description: '',
 }
 
 export default function RestaurantLayout({ children, }: { children: React.ReactNode }) {
-
-
+  console.log(ScrollCarouselModule);
 
   return (
     <html lang="en" suppressHydrationWarning={true}>

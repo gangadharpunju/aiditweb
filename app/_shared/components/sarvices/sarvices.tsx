@@ -1,5 +1,5 @@
 "use client"
-import type { NextPage } from "next";
+import React from 'react';
 import styles from "./sarvices.module.scss";
 import FrameComponent7 from "./cybersecurity/frame-component7";
 import FrameComponent6 from "./cybersecurity/frame-component6";
@@ -14,7 +14,7 @@ import NewsGrid from "../home/homecomponents/news-grid";
 import styleshome from "../home/home.module.scss";
 import FrameComponent8 from "./cybersecurity/frame-component8";
 import FrameComponent from "./cybersecurity/frame-component";
-const Sarvices: NextPage = () => {
+const Sarvices: React.FC = () => {
   return (
     <>
       <div className={styles.cybersecurity}>
