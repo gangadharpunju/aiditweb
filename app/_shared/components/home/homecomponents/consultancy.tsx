@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import type { NextPage } from "next";
+import React from 'react';
 import Component from "./component";
 import styles from "./consultancy.module.css";
 import ScrollCarousel from "scroll-carousel-react";
@@ -7,7 +7,7 @@ export type ConsultancyType = {
   className?: string;
 };
 
-const Consultancy: NextPage<ConsultancyType> = ({ className = "" }) => {
+const Consultancy: React.FC<ConsultancyType> = ({ className = "" }) => {
   return (
     <section className={[styles.consultancy, className].join(" ")}>
       <div className={styles.consultancyContent}>
