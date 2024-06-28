@@ -98,7 +98,7 @@ const Consultancy: React.FC<ConsultancyType> = ({ className = "" }) => {
               <h1 className={styles.whatValueHas}>What value has it added?</h1>
             </div>
           </div>
-          <ScrollCarousel autoplay autoplaySpeed={80} speed={5}>
+          {/* <ScrollCarousel autoplay autoplaySpeed={80} speed={5}> */}
           <div className={styles.valueBenefits}>
             <Component />
             <div className={styles.div}>
@@ -125,7 +125,7 @@ const Consultancy: React.FC<ConsultancyType> = ({ className = "" }) => {
               <img className={styles.vectorIcon3} alt="" src="/vector-6.svg" />
             </div>
           </div>
-          </ScrollCarousel>
+          {/* </ScrollCarousel> */}
         </div>
 
       </div>
