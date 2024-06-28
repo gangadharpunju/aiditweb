@@ -21,7 +21,9 @@
   position: absolute;
   margin: 0 !important;
   top: 0rem;
-  left: calc(50% - 760px);
+  /* left: calc(50% - 640px); */
+  left: 0;
+  right: 0;
   object-fit: cover;
 }
 
@@ -341,7 +343,7 @@
     position: absolute;
     margin: 0 !important;
     top: 0rem;
-    left: calc(50% - 760px);
+    /* left: calc(50% - 760px); */
     object-fit: cover;
 
   }
