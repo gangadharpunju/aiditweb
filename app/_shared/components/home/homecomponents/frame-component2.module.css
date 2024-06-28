@@ -302,7 +302,7 @@
   padding: var(--padding-338xl) var(--padding-xl) var(--padding-25xl-8);
   gap: var(--gap-14xl-8);
   z-index: 2;
-  margin-top: -20.375rem;
+  margin-top: -18.375rem;
   font-size: var(--font-size-4xl-1);
   color: var(--color-gray-1100);
   font-family: var(--font-inter);
@@ -379,6 +379,6 @@
   .frameParent {
     padding-bottom: var(--padding-43xl);
     box-sizing: border-box;
-    margin-top: 18%;
+    margin-top: 16%;
   }
 }

@@ -65,13 +65,13 @@ const LocalBenchmarking: NextPage<LocalBenchmarkingType> = ({
                   </span>
                 </div>
               </div>
-              <img
+              {/* <img
                 className={styles.icons}
                 alt=""
                 src="/cybersecurity-service-icons.svg"
               />
               <img className={styles.icons1} alt="" src="/vector-7448.svg" />
-              <img className={styles.icons2} alt="" src="/vector-7448.svg" />
+              <img className={styles.icons2} alt="" src="/vector-7448.svg" /> */}
             </div>
           </div>
         </div>

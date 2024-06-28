@@ -207,7 +207,7 @@
 }
 .statsCards {
   flex: 1;
-  padding: 0 0 var(--padding-100xl);
+  padding: 80px 0 var(--padding-100xl);
 }
 .frameParent {
   width: 87.938rem;
@@ -258,6 +258,19 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .statsCards {
+    flex: 1;
+    padding: 0px 0 var(--padding-100xl);
+  }
+  .frameParent {
+    width: 100%;
+    padding: 0 0.5rem;
+    position: relative;
+    text-align: left;
+    font-size: var(--font-size-12xl-5);
+    color: var(--color-white);
+    font-family: var(--font-helvetica);
+  }
   .nextGenerationCybersecurity {
     font-size: var(--font-size-lgi);
     line-height: 1.188rem;

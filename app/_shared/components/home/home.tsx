@@ -13,6 +13,7 @@ import FrameComponent from "./homecomponents/frame-component";
 import NewsHeader from "./homecomponents/news-header";
 import BusinessGrowth from "./homecomponents/business-growth";
 import NewsGrid from "./homecomponents/news-grid";
+import ScrollCarousel from "scroll-carousel-react";
 const Home: React.FC = () => {
   return (
     <div className={styles.home}>

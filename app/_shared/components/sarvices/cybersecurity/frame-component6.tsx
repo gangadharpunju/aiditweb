@@ -15,7 +15,7 @@ const FrameComponent6: NextPage<FrameComponent6Type> = ({ className = "" }) => {
             <div className={styles.solutionCardContentInner}>
               <div className={styles.solutionCardDescriptionContWrapper}>
                 <div className={styles.solutionCardDescriptionCont}>
-                  <div className={styles.solutionCardDescriptionContChild} />
+                  {/* <div className={styles.solutionCardDescriptionContChild} /> */}
                   <div className={styles.ourCybersecuritySolutionsContainer}>
                     <span
                       className={styles.ourCybersecuritySolutionsContainer1}

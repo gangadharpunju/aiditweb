@@ -315,6 +315,14 @@
   font-family: var(--font-helvetica);
 }
 @media screen and (max-width: 825px) {
+  .image2Icon {
+    height: 48.819rem;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: -5.781rem;
+    left: -50.6rem;
+  }
   .yourDataDeservesContainer {
     font-size: var(--font-size-30xl);
     line-height: 3.438rem;

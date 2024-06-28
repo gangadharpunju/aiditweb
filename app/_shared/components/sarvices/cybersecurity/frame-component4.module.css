@@ -353,6 +353,7 @@
   font-size: var(--font-size-3xl-4);
   color: var(--color-white);
   font-family: var(--font-helvetica);
+  padding-top: 0;
 }
 .consultingServicesContainer {
   flex-direction: column;
@@ -425,6 +426,7 @@
   }
   .consultingServicesTop {
     flex-wrap: wrap;
+    padding-top: 22%;
   }
   .consultingServicesContainer {
     gap: var(--gap-36xl);
@@ -436,6 +438,15 @@
   }
 }
 @media screen and (max-width: 450px) {
+  .consultingServicesTopInner {
+    height: 17.688rem;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) 0 0;
+    box-sizing: border-box;
+  }
   .heading2Container {
     font-size: var(--font-size-lgi);
     line-height: 1.563rem;

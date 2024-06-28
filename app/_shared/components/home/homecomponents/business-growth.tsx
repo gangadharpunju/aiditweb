@@ -10,7 +10,7 @@ const BusinessGrowth: NextPage<BusinessGrowthType> = ({ className = "" }) => {
   return (
     <>
 
-      <div className="flex" style={{display:"flex"}}>
+      <div className={styles.flexclasdata}>
         <div className={styles.businessGrowth}>
           <div className={styles.growthContainer}>
             <div className={styles.growthContent}>

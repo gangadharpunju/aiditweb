@@ -571,7 +571,7 @@
 .securityAssessmentContainer {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  /* align-items: flex-end; */
   justify-content: flex-start;
   gap: var(--gap-7xs);
   max-width: 100%;
@@ -747,11 +747,13 @@
     line-height: 2.063rem;
   }
   .cloudMigrationContainerWrapper {
-    padding-bottom: var(--padding-31xl);
+    padding-bottom: 0;
     box-sizing: border-box;
+    min-width: 20.938rem;
+    min-height: 0rem;
   }
   .solutionCardsWrapper {
-    padding-bottom: var(--padding-43xl);
+    padding-bottom: 0;
     box-sizing: border-box;
   }
 }

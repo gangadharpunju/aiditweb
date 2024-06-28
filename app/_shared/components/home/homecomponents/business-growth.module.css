@@ -26,6 +26,11 @@
   object-fit: cover;
 }
 
+.flexclasdata{
+  display: flex;
+  flex-direction: row;
+}
+
 .growthContent {
   display: flex;
   flex-direction: row;
@@ -106,6 +111,16 @@
   font-family: var(--font-sora);
 }
 @media screen and (max-width: 800px) {
+  .representationUserExperienceIcon {
+    width: 100%;
+    height: 28.363rem;
+    position: relative;
+    margin: 0 !important;
+    right: 0rem;
+    /* left: 0; */
+    object-fit: cover;
+  }
+  
   .elevateYourDigitalContainer {
     font-size: var(--font-size-17xl);
     line-height: 3rem;
@@ -115,8 +130,16 @@
     padding-left: var(--padding-42xl);
     box-sizing: border-box;
   }
+  .flexclasdata{
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 450px) {
+  .flexclasdata{
+    display: flex;
+    flex-direction: column;
+  }
   .elevateYourDigitalContainer {
     font-size: var(--font-size-8xl);
     line-height: 2.25rem;
