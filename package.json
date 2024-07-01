@@ -58,5 +58,13 @@
     "postcss-nesting": "^12.0.2",
     "sass": "^1.63.4",
     "scroll-carousel-react": "^1.0.0"
-  }
+  },
+  "description": "$ npx create-net-app@latest --typescript",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

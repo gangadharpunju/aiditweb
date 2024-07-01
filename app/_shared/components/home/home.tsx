@@ -18,6 +18,7 @@ const Home: React.FC = () => {
   return (
     <div className={styles.home}>
       {/* <Main /> */}
+      <h1>Adit</h1>
       <FrameComponent2 />
       <FrameComponent1 />
       <Accomplishments />
